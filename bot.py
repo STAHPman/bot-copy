@@ -22,7 +22,7 @@ import logging
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, MessageHandler, Filters
 import urllib.request
-link = 'https://ulkabo.github.io/bot-friday/data/'
+link = 'https://stahpman.github.io/bot-copy/'
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -115,7 +115,7 @@ def vipusniki(update, context):
     pass
 def main():
   
-    updater = Updater("1600092846:AAHLA--iPlmFI8LMfp-U7PEL2NtmrGqUJJQ", use_context=True)
+    updater = Updater("1520477150:AAEct1qPAPlgjXOz9THPw_xyt5EajQvZK_c", use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start))
